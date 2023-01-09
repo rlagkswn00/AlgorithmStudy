@@ -1,3 +1,8 @@
+// Problem Link: https://www.acmicpc.net/problem/7576
+// Theory : BFS
+// BOJ 7576 토마토
+// 특이사항: 가로세로 n,m 입력 구분 확실히 할서
+
 #include <bits/stdc++.h>
 using namespace std;
 #define X first
