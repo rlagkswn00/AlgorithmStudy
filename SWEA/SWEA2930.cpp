@@ -1,3 +1,4 @@
+//힙
 #include <iostream>
 #define MAX_N 100000
 
@@ -7,7 +8,7 @@ int heapCnt;
 
 void add(int val)
 {
-    int pivot = heapCnt;
+    int pivot = heapCnt; 
     heap[heapCnt++] = val;
     while (pivot > 0)
     {
