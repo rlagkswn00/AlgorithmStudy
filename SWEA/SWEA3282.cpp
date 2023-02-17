@@ -21,10 +21,8 @@ void solve()
         for (int j = 1; j < k + 1; j++)
         {
             if (v[i] > j)
-                // 넣을 수 없음
                 dp[i][j] = dp[i - 1][j];
             else
-                // 넣을 수 있음
                 dp[i][j] = max(c[i] + dp[i - 1][j - v[i]], dp[i - 1][j]);
         }
     }
