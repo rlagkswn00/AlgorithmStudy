@@ -1,4 +1,4 @@
-// 0/1 Knapsack
+// 0/1 Knapsack - DP
 #include <bits/stdc++.h>
 using namespace std;
 int dp[101][1001]; // 물건의 개수x, 부피가 y이고 같은 부피에 최대 가치를 저장
