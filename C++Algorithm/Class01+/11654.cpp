@@ -1,5 +1,5 @@
 /*
-Title: BOJ 2920 음계
+Title: BOJ 11654 아스키코드
 Theory : 구현
 Date: 23.04.24
 */
