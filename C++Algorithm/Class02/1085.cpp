@@ -1,6 +1,6 @@
 /*
 Title: BOJ 1085 직사각형 탈출
-Theory :
+Theory : 수학, 기하학
 Date: 23.04.26
 */
 #include <iostream>
