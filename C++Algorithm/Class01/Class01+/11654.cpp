@@ -1,5 +1,5 @@
 /*
-Title: BOJ 11654 아스키코드
+Title: BOJ 11654 숫자의 합
 Theory : 구현
 Date: 23.04.24
 */
