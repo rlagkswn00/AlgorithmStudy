@@ -1,6 +1,6 @@
 /*
 Title: BOJ 2751 수 정렬하기 2
-Theory :
+Theory : 정렬
 Date: 23.05.03
 */
 #include <iostream>
