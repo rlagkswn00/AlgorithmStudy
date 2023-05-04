@@ -1,6 +1,6 @@
 /*
 Title: BOJ 4153 직각삼각형
-Theory :
+Theory : 수학, 기하학, 피타고라스 정리
 Date: 23.05.03
 */
 #include <iostream>

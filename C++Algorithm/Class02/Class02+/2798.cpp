@@ -1,6 +1,6 @@
 /*
 Title: BOJ 2798 블랙잭
-Theory :
+Theory : 브루트포스 알고리즘
 Date: 23.05.03
 */
 #include <iostream>

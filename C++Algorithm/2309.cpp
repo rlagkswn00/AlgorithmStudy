@@ -10,11 +10,9 @@ int main(void)
 
     for (int i = 0; i < 9; i++)
         cin >> input[i];
-
     for (int a = 0; a < 8; a++)
     {
         int total = 0;
-
         for (int b = a + 1; b < 9; b++)
         {
             total = 0;
