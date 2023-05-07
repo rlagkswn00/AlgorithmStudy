@@ -1,0 +1,7 @@
+--
+-- Title: 12세 이한인 여자 환자 목록 출력하기 
+-- Date: 23.05.07
+--
+SELECT PT_NAME, PT_NO, GEND_CD, AGE, IFNULL(TLNO,'NONE') FROM PATIENT
+WHERE AGE <= 12
+ORDER BY AGE DESC, PT_NAME ASC;
