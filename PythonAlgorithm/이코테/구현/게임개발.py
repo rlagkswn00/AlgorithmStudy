@@ -35,7 +35,6 @@ while True:
         nx = x - steps[d][0]
         ny = y - steps[d][1]
         if li[nx][ny] == 0:
-            print(2323232)
             x = nx
             y = ny
         else:
