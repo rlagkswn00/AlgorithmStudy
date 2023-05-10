@@ -3,4 +3,5 @@
 -- Date: 23.05.09
 -- 
 
-select ANIMAL_ID, NAME, DATETIME
+select ANIMAL_ID, NAME, DATETIME from ANIMAL_INS
+order by NAME, DATETIME DESC
