@@ -1,6 +1,6 @@
 #
 # Title: BOJ 2775 부녀회장이 될테야
-# Theory :
+# Theory : 수학, 구현, DP
 # Date: 23.05.16
 #
 
