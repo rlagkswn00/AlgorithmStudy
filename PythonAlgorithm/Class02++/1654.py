@@ -1,6 +1,6 @@
 #
 # Title: BOJ 1654 랜선 자르기
-# Theory :
+# Theory : 이분탐색
 # Date: 23.07.03
 #
 import sys
