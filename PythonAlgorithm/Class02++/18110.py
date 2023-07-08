@@ -1,6 +1,6 @@
 #
 # Title: BOJ 18110 solved.ac
-# Theory :
+# Theory : 수학, 구현, 정렬
 # Date: 23.07.06
 #
 import sys
