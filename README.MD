@@ -10,7 +10,7 @@
 
 PythonAlgorithm - 파이썬으로 해결한 문제
 C++Algorithm - C++로 해결한 문제
-JavaAlgorithm -
+JavaAlgorithm - KB IT 아카데미 교육 간 풀이 문제
 ```
 
 ## 이용 사이트
