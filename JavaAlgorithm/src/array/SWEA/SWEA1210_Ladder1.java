@@ -1,9 +1,9 @@
-package day01.array;
+package array.SWEA;
 
 import java.util.Scanner;
 
 
-class SWEA1210 {
+class SWEA1210_Ladder1 {
 	static Scanner sc = new Scanner(System.in);
 	static int[][] arr = new int[100][102];
 

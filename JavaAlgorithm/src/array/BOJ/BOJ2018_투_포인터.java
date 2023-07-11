@@ -1,9 +1,9 @@
-package day01.array;
+package array.BOJ;
 
 import java.util.*;
 import java.io.*;
 
-public class BOJ2018 {
+public class BOJ2018_투_포인터 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 
@@ -18,19 +18,21 @@ public class BOJ2018 {
 		st = new StringTokenizer(input);
 		int n = Integer.parseInt(st.nextToken());
 
-		int front = 1;
+		int start = 1;
+		int end = 2;
 		int cnt = 0;
-		for(int back = 2 ; back < n + 1 ; back++) {
-			if(total(front,back) == n) {
+		while(end <= n) {			
+			if(total(start,end) == n) {
 				cnt++;
-				System.out.println(front + " " + back);
-			}else if(total(front,back) < n) {
-				continue;
+				start++;
+				end++;
+			}else if(total(start,end) < n) {
+				end++;
 			}else {
-				front++;
+				start++;
 			}
+			
 		}
-		
 		System.out.println(cnt);
 	}
 }

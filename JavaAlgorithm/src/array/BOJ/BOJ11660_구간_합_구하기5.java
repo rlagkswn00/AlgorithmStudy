@@ -1,4 +1,4 @@
-package day01.array;
+package array.BOJ;
 
 import java.util.*;
 import java.io.*;

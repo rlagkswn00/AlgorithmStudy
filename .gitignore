@@ -4,3 +4,7 @@
 .editorconfig
 2023Winter_SamsungDX_SWAlgorithmClass/
 build/
+/bin/
+JavaAlgorithm/bin/
+JavaAlgorithm/.classpath
+JavaAlgorithm/.project
