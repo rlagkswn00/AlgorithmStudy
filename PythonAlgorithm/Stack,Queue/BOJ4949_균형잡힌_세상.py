@@ -1,6 +1,6 @@
 #
 # Title: BOJ 4949 균형잡인 세상
-# Theory : 
+# Theory : 자료구조, 문자열, 스택
 # Date: 23.07.12
 #
 import sys

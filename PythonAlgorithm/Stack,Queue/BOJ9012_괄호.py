@@ -1,6 +1,6 @@
 #
 # Title: BOJ 9012 괄호
-# Theory :
+# Theory : 자료구조, 문자열, 스택
 # Date: 23.07.07
 #
 import sys

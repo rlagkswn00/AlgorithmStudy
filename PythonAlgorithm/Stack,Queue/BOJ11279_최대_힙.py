@@ -1,6 +1,6 @@
 #
 # Title: BOJ 11279 최대 힙
-# Theory : 자료 구조 우선순위 큐
+# Theory : 자료 구조, 우선순위 큐
 # Date: 23.07.09
 #
 import heapq as hq
