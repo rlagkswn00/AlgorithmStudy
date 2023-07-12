@@ -28,7 +28,7 @@ public class JUNG1146_선택정렬 {
 			int tmp = arr[i];
 			arr[i] = arr[minIdx];
 			arr[minIdx] = tmp;
-			System.out.println(minIdx + " " + i + " ");
+//			System.out.println(minIdx + " " + i + " ");
 			for(int j = 0 ; j < n ; j++)
 				sb.append(arr[j] + " ");
 			System.out.println(sb.toString().strip());
