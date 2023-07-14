@@ -1,4 +1,4 @@
-package array.SWEA;
+package array.BOJ;
 
 import java.io.BufferedReader;
 import java.io.IOException;
