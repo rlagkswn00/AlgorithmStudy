@@ -7,7 +7,13 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class BOJ15649_N과_M1 {
-	static void permutation(int[] arr, int[] out, boolean[] visited, int depth, int r) {
+	static int[] arr;
+	static int[] out;
+	static boolean[] visited;
+	static int n;
+	static int r;
+
+	static void dfs(int depth) {
 		// 순열 저장 완료, 출력
 		if (depth == r) {
 			for (int i : out)
@@ -19,7 +25,7 @@ public class BOJ15649_N과_M1 {
 			if (!visited[i]) {
 				visited[i] = true;
 				out[depth] = arr[i];
-				permutation(arr, out, visited, depth + 1, r);
+				dfs(depth + 1);
 				visited[i] = false;
 			}
 		}
@@ -29,14 +35,15 @@ public class BOJ15649_N과_M1 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 
-		int n = Integer.parseInt(st.nextToken());
-		int m = Integer.parseInt(st.nextToken());
+		n = Integer.parseInt(st.nextToken());
+		r = Integer.parseInt(st.nextToken());
 
-		int[] arr = new int[n];
-
+		arr = new int[n];
+		out = new int[r];
+		visited = new boolean[n];
 		Arrays.setAll(arr, num -> num + 1);
 
-		permutation(arr, new int[m], new boolean[arr.length], 0, m);
+		dfs(0);
 
 	}
 }
