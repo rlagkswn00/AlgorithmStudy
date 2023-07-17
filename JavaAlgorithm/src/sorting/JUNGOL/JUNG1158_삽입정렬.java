@@ -14,7 +14,7 @@ public class JUNG1158_삽입정렬 {
 	static void printResult(StringBuilder sb, int arr[]) {
 		for (int j = 0; j < arr.length; j++)
 			sb.append(arr[j] + " ");
-		System.out.println(sb.toString().strip());
+		System.out.println(sb.toString().trim());
 		
 	}
 

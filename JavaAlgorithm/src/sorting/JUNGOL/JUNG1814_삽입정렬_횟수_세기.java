@@ -6,11 +6,11 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+class Main {
 	static void printResult(StringBuilder sb, int arr[]) {
 		for (int j = 0; j < arr.length; j++)
 			sb.append(arr[j] + " ");
-		System.out.println(sb.toString().strip());
+		System.out.println(sb.toString().trim());
 		
 	}
 

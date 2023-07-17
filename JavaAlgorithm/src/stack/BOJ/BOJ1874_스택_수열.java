@@ -3,7 +3,7 @@ package stack.BOJ;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main {
+public class BOJ1874_스택_수열{
 	public static void main(String[] args) {
 		Stack<Integer> st = new Stack<>();
 		Scanner sc = new Scanner(System.in);

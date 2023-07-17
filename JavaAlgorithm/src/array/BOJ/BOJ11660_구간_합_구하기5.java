@@ -3,7 +3,7 @@ package array.BOJ;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class BOJ11660_구간_합_구하기5 {
 	static int N;
 	static int M;
 	static int x1, y1;

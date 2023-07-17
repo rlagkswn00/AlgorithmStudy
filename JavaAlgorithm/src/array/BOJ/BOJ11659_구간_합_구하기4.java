@@ -1,9 +1,8 @@
 package array.BOJ;
 
 import java.util.*;
-import java.io.*;
 
-public class Main {
+class BOJ구간_합_구하기4 {
 	static int N, M, i, j;
 
 	public static void main(String[] args) {

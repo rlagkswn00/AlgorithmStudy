@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
+public class BOJ1158_요세푸스_문제 {
 	public static void main(String[] args) throws IOException{
 		Queue<Integer> q = new LinkedList<>();
 		

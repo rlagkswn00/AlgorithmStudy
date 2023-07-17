@@ -3,7 +3,7 @@ package array.BOJ;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+class Main {
 	static int N;
 	static int objNum;
 	static int cnt;

@@ -31,7 +31,7 @@ public class JUNG1146_선택정렬 {
 //			System.out.println(minIdx + " " + i + " ");
 			for(int j = 0 ; j < n ; j++)
 				sb.append(arr[j] + " ");
-			System.out.println(sb.toString().strip());
+			System.out.println(sb.toString().trim());
 			sb = new StringBuilder();
 
 
