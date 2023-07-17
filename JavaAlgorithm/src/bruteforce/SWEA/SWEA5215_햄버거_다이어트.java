@@ -10,8 +10,9 @@ public class SWEA5215_햄버거_다이어트 {
 	static int[][] arr;
 	static int N;
 	static int L;
-	static int maxScore = 0;
+	static int maxScore;
 
+	//탐색 간 칼로리, 맛 정보 저장
 	static void dfs(int n, int cal, int score) {
 		//종료 조건
 		if (n == N) {
@@ -22,20 +23,18 @@ public class SWEA5215_햄버거_다이어트 {
 			}
 			return;
 		}
-		
-		//탐색 실행
+		//이후 항목에 대해 선택/미선택 탐색
 		dfs(n+1,cal+arr[n][1] , score + arr[n][0]);
 		dfs(n+1,cal, score);		
 	}
 
 	static void solv() throws IOException {
-
+		//입력 처리
 		st = new StringTokenizer(br.readLine());
 		N = Integer.parseInt(st.nextToken());
 		L = Integer.parseInt(st.nextToken());
 
-		//입력에 따른 배열 생성
-		//최대 점수 0점 초기화
+		//배열 초기화 및 입력
 		arr = new int[N][2];
 		maxScore = 0;
 		
@@ -46,7 +45,7 @@ public class SWEA5215_햄버거_다이어트 {
 			arr[i][1] = Integer.parseInt(st.nextToken());
 		}
 
-		//탐색 시작
+		//탐색
 		dfs(0, 0, 0);
 
 	}
@@ -54,9 +53,10 @@ public class SWEA5215_햄버거_다이어트 {
 	public static void main(String[] args) throws IOException {
 		st = new StringTokenizer(br.readLine());
 		int T = Integer.parseInt(st.nextToken());
-		//Test case 개수 입력 받아 진행
+		//TC를 입력 받은 후 풀이를 위한 solv 함수 실행
 		for (int i = 1; i < T + 1; i++) {
-			//매 테스트 케이스 실행 후 출력
+			// 최대 값이 0보다 작을 수 없으므로 0으로 초기화.
+			maxScore = 0;
 			solv();
 			System.out.printf("#%d %d\n", i, maxScore);
 		}
