@@ -42,7 +42,7 @@ public class BOJ14889_스타트와_링크 {
                 int t1 = 0;
                 int t2 = 0;
                 for (int i = 0; i < cnt1 - 1; i++) {
-                    for (int j = i; j < cnt1; j++) {
+                    for (int j = i+1; j < cnt1; j++) {
                         t1 += arr[team1[i]][team1[j]] + arr[team1[j]][team1[i]];
                         t2 += arr[team2[i]][team2[j]] + arr[team2[j]][team2[i]];
                     }
