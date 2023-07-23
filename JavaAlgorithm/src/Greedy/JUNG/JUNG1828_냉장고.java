@@ -32,6 +32,5 @@ public class JUNG1828_냉장고 {
         }
         System.out.println(ans);
     }
-
 }
 
