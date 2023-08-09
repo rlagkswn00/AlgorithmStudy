@@ -12,7 +12,7 @@ visited = [False] * C
 
 li.sort()
 
-def dfs(n, res, i):
+def dfs(n, res, next):
     if n == L:
         cnt = 0
         for i in res:
@@ -23,7 +23,7 @@ def dfs(n, res, i):
             print(res)
         return
     
-    for i in range(i,len(li)):
+    for i in range(next,len(li)):
         if visited[i]:
             continue
         visited[i] = True
