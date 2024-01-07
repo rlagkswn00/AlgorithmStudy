@@ -16,8 +16,8 @@ for i in range(n):
         if board[i][j] != 0:
             start_point.append((board[i][j],i,j,0))
             
-start_point.sort()
 d = [[1,0],[-1,0],[0,1],[0,-1]]
+start_point.sort()
 q = deque(start_point)
 
 while q:
@@ -32,11 +32,11 @@ while q:
         if nx >= n or nx < 0 or ny >= n or ny < 0:
             continue
         
-        if board[nx][ny] != 0:
+        if board[nx][ny]:
             continue
         
         board[nx][ny] = num
-        start_point.append((board[nx][ny],nx,ny,time+1))
+        q.append((board[nx][ny],nx,ny,time+1))
 
 
 print(board[posx-1][posy-1])
