@@ -17,7 +17,7 @@ for i in range(n):
 dp = [[0] * (k+1) for _ in range(n+1)]
 
 # 모든 물건에 대해 차례대로 확인
-for i in range(1,n):
+for i in range(n):
     #각 물건에 대해서 무게별 최대 가치 확인
     for j in range(1,k+1):
         obj = objs[i]
