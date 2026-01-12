@@ -8,10 +8,10 @@ public class BOJ1715 {
 
     public static void main(String[] args) throws IOException {
         int n = Integer.parseInt(br.readLine());
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Long> pq = new PriorityQueue<>();
 
         for (int i = 0; i < n; i++) {
-            int num =  Integer.parseInt(br.readLine());
+            long num =  Integer.parseInt(br.readLine());
             pq.add(num);
         }
 
@@ -22,7 +22,7 @@ public class BOJ1715 {
             long num2 = pq.poll();
 
             total += num1 + num2;
-            pq.add(total);
+            pq.add(num1 + num2);
         }
         System.out.println(total);
     }
